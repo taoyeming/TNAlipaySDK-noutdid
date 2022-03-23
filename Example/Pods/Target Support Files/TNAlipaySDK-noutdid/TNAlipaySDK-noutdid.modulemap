@@ -1,0 +1,6 @@
+framework module TNAlipaySDK_noutdid {
+  umbrella header "TNAlipaySDK-noutdid-umbrella.h"
+
+  export *
+  module * { export * }
+}

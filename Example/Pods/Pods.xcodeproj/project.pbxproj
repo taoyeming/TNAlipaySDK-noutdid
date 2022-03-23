@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C387C4F18A81B3FFED1B5551BD90201 /* TNAlipaySDK-noutdid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1C215A61B02D1E40501F845D974ADA /* TNAlipaySDK-noutdid-dummy.m */; };
+		3F5966B4742B8975B27FF52E1B5CEA35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		56C33A63830A22D2A70A6633CEB42EF8 /* Pods-TNAlipaySDK-noutdid_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6475071731B0B336D37C856D03C0C1C /* Pods-TNAlipaySDK-noutdid_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E4F5BD5C70F41CFAAAE5BA7A383B8C /* TNAlipaySDK-noutdid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2016E19205D269832B5C7D2BF90B4AC /* TNAlipaySDK-noutdid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBFA93E4DCB0FD8C5BAB7286B2AC5AAF /* Pods-TNAlipaySDK-noutdid_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9E5F524C99E89EBE4C3DC671D8DD23 /* Pods-TNAlipaySDK-noutdid_Tests-dummy.m */; };
+		FBE351132B12AEE0849143E892E43CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BD476E5798800F9F1F7179DD03C1E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F426A2562CB234B511AB0D80D6DA64;
+			remoteInfo = "TNAlipaySDK-noutdid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F94B19E8C05643D6F5AE85D7E32460A /* Pods-TNAlipaySDK-noutdid_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TNAlipaySDK-noutdid_Tests-Info.plist"; sourceTree = "<group>"; };
+		1CA552CC015832027451CBD16AA69485 /* Pods-TNAlipaySDK-noutdid_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TNAlipaySDK-noutdid_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1F1C215A61B02D1E40501F845D974ADA /* TNAlipaySDK-noutdid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TNAlipaySDK-noutdid-dummy.m"; sourceTree = "<group>"; };
+		54EFAE3B182C96C67212F592934B61C1 /* TNAlipaySDK-noutdid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TNAlipaySDK-noutdid.release.xcconfig"; sourceTree = "<group>"; };
+		57C30D40247795FD98EF8B7AD3B3C970 /* TNAlipaySDK-noutdid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TNAlipaySDK-noutdid.debug.xcconfig"; sourceTree = "<group>"; };
+		6C9A219B2AE50B03696291DDBDDF2993 /* TNAlipaySDK-noutdid.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "TNAlipaySDK-noutdid.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		710BDDE91B04CC7AE5A8EDDDCA184BDA /* TNAlipaySDK-noutdid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "TNAlipaySDK-noutdid.modulemap"; sourceTree = "<group>"; };
+		7257EACD3EF230DB9C356C1ACDFE5353 /* Pods-TNAlipaySDK-noutdid_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TNAlipaySDK-noutdid_Tests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F7FB835BE3909F4903FD4CEDB402A85 /* TNAlipaySDK-noutdid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TNAlipaySDK-noutdid-prefix.pch"; sourceTree = "<group>"; };
+		9C4C95A11C4FE6F651E06D74DDC09661 /* Pods-TNAlipaySDK-noutdid_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TNAlipaySDK-noutdid_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FAC7B4DD31EF21AC513514BD753F4FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A2016E19205D269832B5C7D2BF90B4AC /* TNAlipaySDK-noutdid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TNAlipaySDK-noutdid-umbrella.h"; sourceTree = "<group>"; };
+		A80AA7732EF6193F79A0DAF1D07F0818 /* Pods-TNAlipaySDK-noutdid_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TNAlipaySDK-noutdid_Tests"; path = Pods_TNAlipaySDK_noutdid_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4E861623A1F22D650D3B671180065A /* Pods-TNAlipaySDK-noutdid_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TNAlipaySDK-noutdid_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BCBA609B67054F9242161F0A845DA389 /* Pods-TNAlipaySDK-noutdid_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TNAlipaySDK-noutdid_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD9E5F524C99E89EBE4C3DC671D8DD23 /* Pods-TNAlipaySDK-noutdid_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TNAlipaySDK-noutdid_Tests-dummy.m"; sourceTree = "<group>"; };
+		CB4C31C711C7FAA68713AD327854FD0A /* TNAlipaySDK-noutdid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TNAlipaySDK-noutdid-Info.plist"; sourceTree = "<group>"; };
+		CD8F2DC79D66AFF5AB90CE3DAB54E831 /* TNAlipaySDK-noutdid */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "TNAlipaySDK-noutdid"; path = TNAlipaySDK_noutdid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0D994A55BB037EBF97A7884B08D9FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E6475071731B0B336D37C856D03C0C1C /* Pods-TNAlipaySDK-noutdid_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TNAlipaySDK-noutdid_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E98F973696990BEF35E1F48A41537884 /* Pods-TNAlipaySDK-noutdid_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TNAlipaySDK-noutdid_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5FE75FEB6A09A77488BD331B82473CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE351132B12AEE0849143E892E43CF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81703BE70E7F0AC373DB9F6742C9D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5966B4742B8975B27FF52E1B5CEA35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296CE2EB2918B7E36FD6D6F007C3C2E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80AA7732EF6193F79A0DAF1D07F0818 /* Pods-TNAlipaySDK-noutdid_Tests */,
+				CD8F2DC79D66AFF5AB90CE3DAB54E831 /* TNAlipaySDK-noutdid */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EB78B9B82513B502CD07331D0D70492 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD0F276D15AEE8185762800A0EF6A5DA /* TNAlipaySDK-noutdid */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		41651009217C8D2F7BE0FCACF6AD5CBD /* Pods-TNAlipaySDK-noutdid_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7257EACD3EF230DB9C356C1ACDFE5353 /* Pods-TNAlipaySDK-noutdid_Tests.modulemap */,
+				BCBA609B67054F9242161F0A845DA389 /* Pods-TNAlipaySDK-noutdid_Tests-acknowledgements.markdown */,
+				E98F973696990BEF35E1F48A41537884 /* Pods-TNAlipaySDK-noutdid_Tests-acknowledgements.plist */,
+				BD9E5F524C99E89EBE4C3DC671D8DD23 /* Pods-TNAlipaySDK-noutdid_Tests-dummy.m */,
+				1CA552CC015832027451CBD16AA69485 /* Pods-TNAlipaySDK-noutdid_Tests-frameworks.sh */,
+				0F94B19E8C05643D6F5AE85D7E32460A /* Pods-TNAlipaySDK-noutdid_Tests-Info.plist */,
+				E6475071731B0B336D37C856D03C0C1C /* Pods-TNAlipaySDK-noutdid_Tests-umbrella.h */,
+				9C4C95A11C4FE6F651E06D74DDC09661 /* Pods-TNAlipaySDK-noutdid_Tests.debug.xcconfig */,
+				AF4E861623A1F22D650D3B671180065A /* Pods-TNAlipaySDK-noutdid_Tests.release.xcconfig */,
+			);
+			name = "Pods-TNAlipaySDK-noutdid_Tests";
+			path = "Target Support Files/Pods-TNAlipaySDK-noutdid_Tests";
+			sourceTree = "<group>";
+		};
+		4AD3BB2BCA4DEA920B2F37488E1640E7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CF0D994A55BB037EBF97A7884B08D9FF /* LICENSE */,
+				9FAC7B4DD31EF21AC513514BD753F4FD /* README.md */,
+				6C9A219B2AE50B03696291DDBDDF2993 /* TNAlipaySDK-noutdid.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BA4059BF195B2C376A1298690F1A5C87 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41651009217C8D2F7BE0FCACF6AD5CBD /* Pods-TNAlipaySDK-noutdid_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CC638C26A1F24C7262810CF5817B1C07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				710BDDE91B04CC7AE5A8EDDDCA184BDA /* TNAlipaySDK-noutdid.modulemap */,
+				1F1C215A61B02D1E40501F845D974ADA /* TNAlipaySDK-noutdid-dummy.m */,
+				CB4C31C711C7FAA68713AD327854FD0A /* TNAlipaySDK-noutdid-Info.plist */,
+				7F7FB835BE3909F4903FD4CEDB402A85 /* TNAlipaySDK-noutdid-prefix.pch */,
+				A2016E19205D269832B5C7D2BF90B4AC /* TNAlipaySDK-noutdid-umbrella.h */,
+				57C30D40247795FD98EF8B7AD3B3C970 /* TNAlipaySDK-noutdid.debug.xcconfig */,
+				54EFAE3B182C96C67212F592934B61C1 /* TNAlipaySDK-noutdid.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TNAlipaySDK-noutdid";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3EB78B9B82513B502CD07331D0D70492 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				296CE2EB2918B7E36FD6D6F007C3C2E8 /* Products */,
+				BA4059BF195B2C376A1298690F1A5C87 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD0F276D15AEE8185762800A0EF6A5DA /* TNAlipaySDK-noutdid */ = {
+			isa = PBXGroup;
+			children = (
+				4AD3BB2BCA4DEA920B2F37488E1640E7 /* Pod */,
+				CC638C26A1F24C7262810CF5817B1C07 /* Support Files */,
+			);
+			name = "TNAlipaySDK-noutdid";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F7E36CD1E82E6DB9CEA08EF63F8EE05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E4F5BD5C70F41CFAAAE5BA7A383B8C /* TNAlipaySDK-noutdid-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E262327AC88F7262DEC2620FDC4D05D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C33A63830A22D2A70A6633CEB42EF8 /* Pods-TNAlipaySDK-noutdid_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A041C2251449E1AAD5AB5F705B21FA6 /* Pods-TNAlipaySDK-noutdid_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629E576D87EEC661BDDDB42274DDACB7 /* Build configuration list for PBXNativeTarget "Pods-TNAlipaySDK-noutdid_Tests" */;
+			buildPhases = (
+				E262327AC88F7262DEC2620FDC4D05D1 /* Headers */,
+				5154E3864AD912725E1E0151A4B3A2EC /* Sources */,
+				D5FE75FEB6A09A77488BD331B82473CB /* Frameworks */,
+				E99D2923DDFB505171C02C35C392E697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF0F7152CAB17292BC792F7E8D39DC5F /* PBXTargetDependency */,
+			);
+			name = "Pods-TNAlipaySDK-noutdid_Tests";
+			productName = Pods_TNAlipaySDK_noutdid_Tests;
+			productReference = A80AA7732EF6193F79A0DAF1D07F0818 /* Pods-TNAlipaySDK-noutdid_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7F426A2562CB234B511AB0D80D6DA64 /* TNAlipaySDK-noutdid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F72D948BBE8D2CA5DF4E997C7B3A91 /* Build configuration list for PBXNativeTarget "TNAlipaySDK-noutdid" */;
+			buildPhases = (
+				2F7E36CD1E82E6DB9CEA08EF63F8EE05 /* Headers */,
+				42271553B034F1BF01D3B7AC29029F48 /* Sources */,
+				E81703BE70E7F0AC373DB9F6742C9D7A /* Frameworks */,
+				E16B9BD15FC9D6B549C0C40B75FA49CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TNAlipaySDK-noutdid";
+			productName = TNAlipaySDK_noutdid;
+			productReference = CD8F2DC79D66AFF5AB90CE3DAB54E831 /* TNAlipaySDK-noutdid */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 296CE2EB2918B7E36FD6D6F007C3C2E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A041C2251449E1AAD5AB5F705B21FA6 /* Pods-TNAlipaySDK-noutdid_Tests */,
+				D7F426A2562CB234B511AB0D80D6DA64 /* TNAlipaySDK-noutdid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16B9BD15FC9D6B549C0C40B75FA49CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99D2923DDFB505171C02C35C392E697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42271553B034F1BF01D3B7AC29029F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C387C4F18A81B3FFED1B5551BD90201 /* TNAlipaySDK-noutdid-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5154E3864AD912725E1E0151A4B3A2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFA93E4DCB0FD8C5BAB7286B2AC5AAF /* Pods-TNAlipaySDK-noutdid_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF0F7152CAB17292BC792F7E8D39DC5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TNAlipaySDK-noutdid";
+			target = D7F426A2562CB234B511AB0D80D6DA64 /* TNAlipaySDK-noutdid */;
+			targetProxy = 2BD476E5798800F9F1F7179DD03C1E3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		358D175B5B1B1340AAF54DD518D42B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4E861623A1F22D650D3B671180065A /* Pods-TNAlipaySDK-noutdid_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TNAlipaySDK-noutdid_Tests/Pods-TNAlipaySDK-noutdid_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TNAlipaySDK-noutdid_Tests/Pods-TNAlipaySDK-noutdid_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3955921E51430BD1069D34900530E819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4C95A11C4FE6F651E06D74DDC09661 /* Pods-TNAlipaySDK-noutdid_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TNAlipaySDK-noutdid_Tests/Pods-TNAlipaySDK-noutdid_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TNAlipaySDK-noutdid_Tests/Pods-TNAlipaySDK-noutdid_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5FE61A44B3FF46C906E5CB2972D8390F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EFAE3B182C96C67212F592934B61C1 /* TNAlipaySDK-noutdid.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TNAlipaySDK-noutdid/TNAlipaySDK-noutdid-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TNAlipaySDK-noutdid/TNAlipaySDK-noutdid-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TNAlipaySDK-noutdid/TNAlipaySDK-noutdid.modulemap";
+				PRODUCT_MODULE_NAME = TNAlipaySDK_noutdid;
+				PRODUCT_NAME = TNAlipaySDK_noutdid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD897518794D458D1DC3AEE31C8080CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C30D40247795FD98EF8B7AD3B3C970 /* TNAlipaySDK-noutdid.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TNAlipaySDK-noutdid/TNAlipaySDK-noutdid-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TNAlipaySDK-noutdid/TNAlipaySDK-noutdid-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TNAlipaySDK-noutdid/TNAlipaySDK-noutdid.modulemap";
+				PRODUCT_MODULE_NAME = TNAlipaySDK_noutdid;
+				PRODUCT_NAME = TNAlipaySDK_noutdid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629E576D87EEC661BDDDB42274DDACB7 /* Build configuration list for PBXNativeTarget "Pods-TNAlipaySDK-noutdid_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3955921E51430BD1069D34900530E819 /* Debug */,
+				358D175B5B1B1340AAF54DD518D42B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F72D948BBE8D2CA5DF4E997C7B3A91 /* Build configuration list for PBXNativeTarget "TNAlipaySDK-noutdid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD897518794D458D1DC3AEE31C8080CC /* Debug */,
+				5FE61A44B3FF46C906E5CB2972D8390F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

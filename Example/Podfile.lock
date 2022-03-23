@@ -1,0 +1,16 @@
+PODS:
+  - TNAlipaySDK-noutdid (0.1.0)
+
+DEPENDENCIES:
+  - TNAlipaySDK-noutdid (from `../`)
+
+EXTERNAL SOURCES:
+  TNAlipaySDK-noutdid:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TNAlipaySDK-noutdid: 383f1bef88c20cb709668b74a4b749da21ab77b8
+
+PODFILE CHECKSUM: aa8843c4923bbebb86cbd5e8c642c92cd79a8703
+
+COCOAPODS: 1.11.3
