@@ -32,4 +32,6 @@ TODO: Add long description of the pod here.
 
   s.vendored_frameworks = 'TNAlipaySDK-noutdid/AlipaySDK.framework'
   s.resources = 'TNAlipaySDK-noutdid/AlipaySDK.bundle'
+  s.frameworks = ["UIKit", "Foundation", "CFNetwork", "SystemConfiguration", "QuartzCore", "CoreGraphics", "CoreMotion", "CoreTelephony", "CoreText","WebKit"]
+  s.libraries = ["c++", "z"]
 end
