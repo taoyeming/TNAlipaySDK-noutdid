@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TNAlipaySDK-noutdid_Tests' do
+  pod 'TNAlipaySDK-noutdid', :path => '../'
+  
+  
+end
