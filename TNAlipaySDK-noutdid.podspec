@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TNAlipaySDK-noutdid'
-  s.version          = '15.8.8'
+  s.version          = '15.8.11'
   s.summary          = 'A short description of TNAlipaySDK-noutdid.'
 
 # This description is used to generate tags and improve search results.
